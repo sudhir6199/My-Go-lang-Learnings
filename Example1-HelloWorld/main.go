@@ -6,7 +6,7 @@ A package is a shared library i.e. collection of source files in the same direct
 */
 
 import "fmt" //a module is a collection of packages with built-in dependencies and versioning.
-//note the double quotes.
+//NOTE: the double quotes.
 
 func main(){   //main function is the first function that executes in the program, here this declaration is must in a file that has to executable.
 	fmt.Println("Hello World")
