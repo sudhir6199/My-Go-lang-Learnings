@@ -1,9 +1,12 @@
 package main
-import ("fmt")
+
+import (
+	"fmt"
+)
 
 func main() {
 	var greet string = "Hello"
-	var subject string = "World."
+	var subject = "World." //mentioning datatype is optional
 	//Using Print
-	fmt.Println("I said",greet,"to the",subject)
+	fmt.Println("I said", greet, "to the", subject)
 }

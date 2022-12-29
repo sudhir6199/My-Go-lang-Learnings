@@ -9,10 +9,8 @@ func main() {
 // Single Input
 	fmt.Print("\nEnter Your Name Go Developer: ")
 	var devname string
-	fmt.Scanf(%s",&devname)
-	fmt.Print("\nHello ",devname)
-
-
+	fmt.Scanf("%s",&devname)
+	fmt.Print("\nHello",devname)
 
 // Two Inputs
 	fmt.Printf("\n\n%s, for which firm do you work and how long? ",devname)
